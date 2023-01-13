@@ -60,3 +60,13 @@
   color: #3a3a3a;
   margin: 16px 0;
 }
+/* main section */
+/* company Logos style  */
+section{
+    margin-bottom: 100px;
+}
+.company-logos{
+    display: flex;
+    justify-content: center;
+    gap: 61px;
+}
