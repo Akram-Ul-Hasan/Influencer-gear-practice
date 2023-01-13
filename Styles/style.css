@@ -1,0 +1,62 @@
+/* font styles */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&family=Work+Sans&display=swap");
+
+/* utility */
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.button-primary {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #e02c6d;
+  border: none;
+}
+/* header and nav section  */
+/* nav style  */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 87px 120px 0;
+  color: #3a3a3a;
+}
+.nav-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+.nav-options {
+  display: flex;
+  gap: 34px;
+}
+.nav-options a {
+  text-decoration: none;
+}
+.nav-option {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+/* header section style  */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 133px;
+  margin: 80px 132px 100px 120px;
+}
+.header-img{
+    background-image: url(/images/Circle\ design.svg);
+}
+.header-title {
+  font-weight: 700;
+  font-size: 52px;
+  color: #3a3a3a;
+}
+.header-description {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+  margin: 16px 0;
+}
